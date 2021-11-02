@@ -5,7 +5,7 @@ image_condense = tf.nn.pool(
     strides=(2,2),
     padding='SAME',
 )
-
+#comment
 plt.figure(figsize=(8, 6))
 plt.subplot(121)
 plt.imshow(tf.squeeze(image_detect))
